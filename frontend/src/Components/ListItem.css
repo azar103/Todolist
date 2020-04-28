@@ -1,0 +1,53 @@
+.header {
+    background-color: #008788;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 5px;
+
+}
+ input {
+   margin-left: 4px;
+   padding: 5px;
+   width: 85%;
+   height:  40px;
+   border: none;
+   background-color: #008788;
+   font-size: 20px;
+   
+}
+::placeholder {
+     color: white;
+    font-size: 20px;
+    
+}
+
+input[type="text"]:focus{
+    outline: none;
+    color: white;
+}
+
+.fa-plus {
+    cursor: pointer;
+}
+
+
+
+ #icon {
+      color:white;
+      display: flex;
+      justify-self: end
+  }
+
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .list-todo {
+ 
+  }
+
+  

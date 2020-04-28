@@ -1,0 +1,47 @@
+.item {
+    box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  
+    padding: 10px;
+   margin-top: 10px;
+   margin-top: 15px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+}
+
+.group-btn {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.fa-trash {
+    color: deeppink;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-check{
+    font-size: 25px;
+    color: green;
+}
+
+.fa-edit {
+    font-size: 25px;
+    color: blue;
+}
+
+#trash {
+    margin-left: 5px;
+}
+
+#check {
+    margin-left: 5px;
+}
+
+#edit {
+    margin-left: 5px;
+}
